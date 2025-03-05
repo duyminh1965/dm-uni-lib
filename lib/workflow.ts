@@ -18,7 +18,7 @@ export const sendEmail = async ({ email, subject, message, }: { email: string; s
           provider: resend({ token: config.env.apiEndpoint }),
         },
         body: {
-          from: "DM <hello.qdstaircases.ca>",
+          from: "DM <info@qdstaircases.ca>",
           to: [email],
           subject,
           html: message,
