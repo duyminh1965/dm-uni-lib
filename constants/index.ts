@@ -180,7 +180,7 @@ export const navigationLinks = [
       genre: "Finance / Self-Help",
       rating: 4.8,
       total_copies: 10,
-      available_copies: 5,
+      available_copies: 5, 
       description:
         "Morgan Housel explores the unique behaviors and mindsets that shape financial success and decision-making.",
       color: "#ffffff",

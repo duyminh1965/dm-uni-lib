@@ -29,7 +29,7 @@ const Header = ({ session }: { session: Session }) => {
                         <AvatarFallback className="bg-amber-100">
                             {getInitials(session?.user?.name || "IN")}
                         </AvatarFallback>
-                    </Avatar>
+                    </Avatar> 
 
                 </Link>
             </li>
